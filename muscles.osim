@@ -1,0 +1,494 @@
+<?xml version="1.0" ?>
+<OpenSimDocument Version="30000">
+	<Model>
+		<ForceSet>
+			<objects>
+				<RigidTendonMuscle name="TailRMuscle">
+					<GeometryPath>
+						<PathPointSet>
+							<objects>
+								<PathPoint name="TailRMuscle_node0">
+									<location>-0.006067 0.014215 -0.000306</location>
+									<body>link_Tail22</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node1">
+									<location>-0.005957 0.020250 -0.000178</location>
+									<body>link_Tail22</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node2">
+									<location>-0.005786 0.005284 0.000731</location>
+									<body>link_Tail21</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node3">
+									<location>-0.005613 0.005221 0.001028</location>
+									<body>link_Tail20</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node4">
+									<location>-0.005505 0.005528 0.000876</location>
+									<body>link_Tail19</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node5">
+									<location>-0.005332 0.005477 0.000788</location>
+									<body>link_Tail18</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node6">
+									<location>-0.005221 0.005575 0.000723</location>
+									<body>link_Tail17</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node7">
+									<location>-0.005080 0.005608 0.000792</location>
+									<body>link_Tail16</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node8">
+									<location>-0.004940 0.005730 0.001034</location>
+									<body>link_Tail15</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node9">
+									<location>-0.004889 0.005653 0.001447</location>
+									<body>link_Tail14</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node10">
+									<location>-0.004717 0.005714 0.001331</location>
+									<body>link_Tail13</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node11">
+									<location>-0.004516 0.005725 0.002070</location>
+									<body>link_Tail12</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node12">
+									<location>-0.004254 0.005845 0.002304</location>
+									<body>link_Tail11</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node13">
+									<location>-0.004174 0.005928 0.002648</location>
+									<body>link_Tail10</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node14">
+									<location>-0.004184 0.005939 0.003158</location>
+									<body>link_Tail9</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node15">
+									<location>-0.003892 0.005895 0.003879</location>
+									<body>link_Tail8</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node16">
+									<location>-0.003809 0.006153 0.003883</location>
+									<body>link_Tail7</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node17">
+									<location>-0.003729 0.006064 0.004702</location>
+									<body>link_Tail6</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node18">
+									<location>-0.003618 0.006469 0.004690</location>
+									<body>link_Tail5</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node19">
+									<location>-0.003445 0.006386 0.005297</location>
+									<body>link_Tail4</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node20">
+									<location>-0.003365 0.006477 0.005909</location>
+									<body>link_Tail3</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node21">
+									<location>-0.003131 0.006357 0.006519</location>
+									<body>link_Tail2</body>
+								</PathPoint>
+								<PathPoint name="TailRMuscle_node22">
+									<location>-0.002886 0.007668 0.007287</location>
+									<body>link_Tail1</body>
+								</PathPoint>
+							</objects>
+						</PathPointSet>
+					</GeometryPath>
+					<max_isometric_force>1000.0</max_isometric_force>
+					<optimal_fiber_length>4.843430900573731</optimal_fiber_length>
+					<tendon_slack_length>0.5381589889526367</tendon_slack_length>
+				</RigidTendonMuscle>
+				<RigidTendonMuscle name="TailLMuscle">
+					<GeometryPath>
+						<PathPointSet>
+							<objects>
+								<PathPoint name="TailLMuscle_node0">
+									<location>0.006226 0.014239 -0.001069</location>
+									<body>link_Tail22</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node1">
+									<location>0.005930 0.019862 -0.001159</location>
+									<body>link_Tail22</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node2">
+									<location>0.005770 0.004846 -0.000292</location>
+									<body>link_Tail21</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node3">
+									<location>0.005626 0.005098 -0.000125</location>
+									<body>link_Tail20</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node4">
+									<location>0.005576 0.005136 -0.000504</location>
+									<body>link_Tail19</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node5">
+									<location>0.005442 0.005576 0.000779</location>
+									<body>link_Tail18</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node6">
+									<location>0.005200 0.005497 0.000727</location>
+									<body>link_Tail17</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node7">
+									<location>0.005057 0.005508 0.000797</location>
+									<body>link_Tail16</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node8">
+									<location>0.005066 0.005526 0.001039</location>
+									<body>link_Tail15</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node9">
+									<location>0.004895 0.005524 0.001440</location>
+									<body>link_Tail14</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node10">
+									<location>0.004714 0.005503 0.001331</location>
+									<body>link_Tail13</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node11">
+									<location>0.004636 0.005471 0.002049</location>
+									<body>link_Tail12</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node12">
+									<location>0.004498 0.005615 0.002258</location>
+									<body>link_Tail11</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node13">
+									<location>0.004358 0.005692 0.002620</location>
+									<body>link_Tail10</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node14">
+									<location>0.004183 0.005664 0.003133</location>
+									<body>link_Tail9</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node15">
+									<location>0.004041 0.005583 0.003824</location>
+									<body>link_Tail8</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node16">
+									<location>0.003922 0.005866 0.003870</location>
+									<body>link_Tail7</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node17">
+									<location>0.003754 0.005803 0.004679</location>
+									<body>link_Tail6</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node18">
+									<location>0.003599 0.006241 0.004687</location>
+									<body>link_Tail5</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node19">
+									<location>0.003467 0.006196 0.005290</location>
+									<body>link_Tail4</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node20">
+									<location>0.003377 0.006273 0.005899</location>
+									<body>link_Tail3</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node21">
+									<location>0.003237 0.006118 0.006502</location>
+									<body>link_Tail2</body>
+								</PathPoint>
+								<PathPoint name="TailLMuscle_node22">
+									<location>0.002948 0.007817 0.007284</location>
+									<body>link_Tail1</body>
+								</PathPoint>
+							</objects>
+						</PathPointSet>
+					</GeometryPath>
+					<max_isometric_force>1000.0</max_isometric_force>
+					<optimal_fiber_length>4.847078275680542</optimal_fiber_length>
+					<tendon_slack_length>0.5385642528533936</tendon_slack_length>
+				</RigidTendonMuscle>
+				<RigidTendonMuscle name="LVMuscle">
+					<GeometryPath>
+						<PathPointSet>
+							<objects>
+								<PathPoint name="LVMuscle_node0">
+									<location>-0.000565 -0.018525 -0.029539</location>
+									<body>link_LV1</body>
+								</PathPoint>
+								<PathPoint name="LVMuscle_node1">
+									<location>-0.000055 0.037379 -0.013056</location>
+									<body>link_LV</body>
+								</PathPoint>
+							</objects>
+						</PathPointSet>
+					</GeometryPath>
+					<max_isometric_force>1000.0</max_isometric_force>
+					<optimal_fiber_length>1.0092760920524597</optimal_fiber_length>
+					<tendon_slack_length>0.11214178800582886</tendon_slack_length>
+				</RigidTendonMuscle>
+				<RigidTendonMuscle name="RVMuscle">
+					<GeometryPath>
+						<PathPointSet>
+							<objects>
+								<PathPoint name="RVMuscle_node0">
+									<location>0.000451 0.006582 -0.001938</location>
+									<body>link_RV1</body>
+								</PathPoint>
+								<PathPoint name="RVMuscle_node1">
+									<location>0.000012 0.000355 -0.003822</location>
+									<body>link_RV</body>
+								</PathPoint>
+							</objects>
+						</PathPointSet>
+					</GeometryPath>
+					<max_isometric_force>1000.0</max_isometric_force>
+					<optimal_fiber_length>1.0284244894981385</optimal_fiber_length>
+					<tendon_slack_length>0.11426938772201539</tendon_slack_length>
+				</RigidTendonMuscle>
+				<RigidTendonMuscle name="RHMuscle">
+					<GeometryPath>
+						<PathPointSet>
+							<objects>
+								<PathPoint name="RHMuscle_node0">
+									<location>0.000892 0.011579 0.001026</location>
+									<body>link_RH7</body>
+								</PathPoint>
+								<PathPoint name="RHMuscle_node1">
+									<location>-0.000103 -0.001649 0.003126</location>
+									<body>link_RH</body>
+								</PathPoint>
+							</objects>
+						</PathPointSet>
+					</GeometryPath>
+					<max_isometric_force>1000.0</max_isometric_force>
+					<optimal_fiber_length>1.0936533451080324</optimal_fiber_length>
+					<tendon_slack_length>0.12151703834533692</tendon_slack_length>
+				</RigidTendonMuscle>
+				<RigidTendonMuscle name="LHMuscle">
+					<GeometryPath>
+						<PathPointSet>
+							<objects>
+								<PathPoint name="LHMuscle_node0">
+									<location>-0.000820 0.011591 0.001077</location>
+									<body>link_LH7</body>
+								</PathPoint>
+								<PathPoint name="LHMuscle_node1">
+									<location>-0.000233 -0.002480 0.002891</location>
+									<body>link_LH</body>
+								</PathPoint>
+							</objects>
+						</PathPointSet>
+					</GeometryPath>
+					<max_isometric_force>1000.0</max_isometric_force>
+					<optimal_fiber_length>1.1152706623077393</optimal_fiber_length>
+					<tendon_slack_length>0.1239189624786377</tendon_slack_length>
+				</RigidTendonMuscle>
+				<RigidTendonMuscle name="BodyMHMuscle">
+					<GeometryPath>
+						<PathPointSet>
+							<objects>
+								<PathPoint name="BodyMHMuscle_node0">
+									<location>0.000045 0.015140 0.002843</location>
+									<body>link_Body1</body>
+								</PathPoint>
+								<PathPoint name="BodyMHMuscle_node1">
+									<location>0.000022 0.002928 0.005676</location>
+									<body>link_Body1</body>
+								</PathPoint>
+								<PathPoint name="BodyMHMuscle_node2">
+									<location>-0.000009 0.002047 0.006586</location>
+									<body>link_Body2</body>
+								</PathPoint>
+								<PathPoint name="BodyMHMuscle_node3">
+									<location>-0.000017 0.001831 0.006537</location>
+									<body>link_Body3</body>
+								</PathPoint>
+								<PathPoint name="BodyMHMuscle_node4">
+									<location>-0.000013 0.001846 0.006498</location>
+									<body>link_Body4</body>
+								</PathPoint>
+								<PathPoint name="BodyMHMuscle_node5">
+									<location>0.000014 0.002175 0.006433</location>
+									<body>link_Body5</body>
+								</PathPoint>
+								<PathPoint name="BodyMHMuscle_node6">
+									<location>-0.000049 0.001842 0.006384</location>
+									<body>link_Body6</body>
+								</PathPoint>
+								<PathPoint name="BodyMHMuscle_node7">
+									<location>0.000054 0.001840 0.006318</location>
+									<body>link_Body7</body>
+								</PathPoint>
+								<PathPoint name="BodyMHMuscle_node8">
+									<location>0.000061 0.001981 0.006288</location>
+									<body>link_Body8</body>
+								</PathPoint>
+								<PathPoint name="BodyMHMuscle_node9">
+									<location>-0.000020 0.057759 0.007396</location>
+									<body>link_Body</body>
+								</PathPoint>
+								<PathPoint name="BodyMHMuscle_node10">
+									<location>0.000153 0.046927 0.011860</location>
+									<body>link_Body</body>
+								</PathPoint>
+							</objects>
+						</PathPointSet>
+					</GeometryPath>
+					<max_isometric_force>1000.0</max_isometric_force>
+					<optimal_fiber_length>2.2485153436660767</optimal_fiber_length>
+					<tendon_slack_length>0.24983503818511965</tendon_slack_length>
+				</RigidTendonMuscle>
+				<RigidTendonMuscle name="BodyLVMuscle">
+					<GeometryPath>
+						<PathPointSet>
+							<objects>
+								<PathPoint name="BodyLVMuscle_node0">
+									<location>0.006237 0.001736 -0.001037</location>
+									<body>link_Body</body>
+								</PathPoint>
+								<PathPoint name="BodyLVMuscle_node1">
+									<location>-0.006282 0.002106 -0.001447</location>
+									<body>link_Body10</body>
+								</PathPoint>
+								<PathPoint name="BodyLVMuscle_node2">
+									<location>-0.006191 0.007547 0.000899</location>
+									<body>link_Body10</body>
+								</PathPoint>
+							</objects>
+						</PathPointSet>
+					</GeometryPath>
+					<max_isometric_force>1000.0</max_isometric_force>
+					<optimal_fiber_length>0.2741921961307526</optimal_fiber_length>
+					<tendon_slack_length>0.03046579957008362</tendon_slack_length>
+				</RigidTendonMuscle>
+				<RigidTendonMuscle name="BodyRVMuscle">
+					<GeometryPath>
+						<PathPointSet>
+							<objects>
+								<PathPoint name="BodyRVMuscle_node0">
+									<location>-0.006367 0.001827 -0.001014</location>
+									<body>link_Body</body>
+								</PathPoint>
+								<PathPoint name="BodyRVMuscle_node1">
+									<location>0.006259 0.002248 -0.001443</location>
+									<body>link_Body10</body>
+								</PathPoint>
+								<PathPoint name="BodyRVMuscle_node2">
+									<location>0.006356 0.006879 0.000372</location>
+									<body>link_Body10</body>
+								</PathPoint>
+							</objects>
+						</PathPointSet>
+					</GeometryPath>
+					<max_isometric_force>1000.0</max_isometric_force>
+					<optimal_fiber_length>0.25459404587745665</optimal_fiber_length>
+					<tendon_slack_length>0.028288227319717408</tendon_slack_length>
+				</RigidTendonMuscle>
+				<RigidTendonMuscle name="BodyRHMuscle">
+					<GeometryPath>
+						<PathPointSet>
+							<objects>
+								<PathPoint name="BodyRHMuscle_node0">
+									<location>-0.006077 0.011578 -0.000074</location>
+									<body>link_Body1</body>
+								</PathPoint>
+								<PathPoint name="BodyRHMuscle_node1">
+									<location>-0.006260 0.002072 -0.001421</location>
+									<body>link_Body1</body>
+								</PathPoint>
+								<PathPoint name="BodyRHMuscle_node2">
+									<location>-0.006321 0.002391 -0.000454</location>
+									<body>link_Body2</body>
+								</PathPoint>
+								<PathPoint name="BodyRHMuscle_node3">
+									<location>-0.006284 0.002216 -0.000504</location>
+									<body>link_Body3</body>
+								</PathPoint>
+								<PathPoint name="BodyRHMuscle_node4">
+									<location>-0.006222 0.002051 -0.000548</location>
+									<body>link_Body4</body>
+								</PathPoint>
+								<PathPoint name="BodyRHMuscle_node5">
+									<location>-0.006254 0.002347 -0.000617</location>
+									<body>link_Body5</body>
+								</PathPoint>
+								<PathPoint name="BodyRHMuscle_node6">
+									<location>-0.006316 0.002130 -0.000660</location>
+									<body>link_Body6</body>
+								</PathPoint>
+								<PathPoint name="BodyRHMuscle_node7">
+									<location>-0.006176 0.002142 -0.000725</location>
+									<body>link_Body7</body>
+								</PathPoint>
+								<PathPoint name="BodyRHMuscle_node8">
+									<location>-0.006307 0.002164 -0.000760</location>
+									<body>link_Body8</body>
+								</PathPoint>
+								<PathPoint name="BodyRHMuscle_node9">
+									<location>-0.006183 0.056788 0.000168</location>
+									<body>link_Body</body>
+								</PathPoint>
+							</objects>
+						</PathPointSet>
+					</GeometryPath>
+					<max_isometric_force>1000.0</max_isometric_force>
+					<optimal_fiber_length>1.7650012493133544</optimal_fiber_length>
+					<tendon_slack_length>0.19611124992370607</tendon_slack_length>
+				</RigidTendonMuscle>
+				<RigidTendonMuscle name="BodyLHMuscle">
+					<GeometryPath>
+						<PathPointSet>
+							<objects>
+								<PathPoint name="BodyLHMuscle_node0">
+									<location>0.006272 0.011933 0.000050</location>
+									<body>link_Body1</body>
+								</PathPoint>
+								<PathPoint name="BodyLHMuscle_node1">
+									<location>0.006225 0.002101 -0.001422</location>
+									<body>link_Body1</body>
+								</PathPoint>
+								<PathPoint name="BodyLHMuscle_node2">
+									<location>0.006160 0.002154 -0.000448</location>
+									<body>link_Body2</body>
+								</PathPoint>
+								<PathPoint name="BodyLHMuscle_node3">
+									<location>0.006202 0.002094 -0.000506</location>
+									<body>link_Body3</body>
+								</PathPoint>
+								<PathPoint name="BodyLHMuscle_node4">
+									<location>0.006222 0.002127 -0.000544</location>
+									<body>link_Body4</body>
+								</PathPoint>
+								<PathPoint name="BodyLHMuscle_node5">
+									<location>0.006244 0.002412 -0.000616</location>
+									<body>link_Body5</body>
+								</PathPoint>
+								<PathPoint name="BodyLHMuscle_node6">
+									<location>0.006227 0.002012 -0.000668</location>
+									<body>link_Body6</body>
+								</PathPoint>
+								<PathPoint name="BodyLHMuscle_node7">
+									<location>0.006258 0.002216 -0.000730</location>
+									<body>link_Body7</body>
+								</PathPoint>
+								<PathPoint name="BodyLHMuscle_node8">
+									<location>0.006203 0.002205 -0.000760</location>
+									<body>link_Body8</body>
+								</PathPoint>
+								<PathPoint name="BodyLHMuscle_node9">
+									<location>0.006356 0.056261 0.000414</location>
+									<body>link_Body</body>
+								</PathPoint>
+							</objects>
+						</PathPointSet>
+					</GeometryPath>
+					<max_isometric_force>1000.0</max_isometric_force>
+					<optimal_fiber_length>1.790543282032013</optimal_fiber_length>
+					<tendon_slack_length>0.19894925355911255</tendon_slack_length>
+				</RigidTendonMuscle>
+			</objects>
+		</ForceSet>
+	</Model>
+</OpenSimDocument>
