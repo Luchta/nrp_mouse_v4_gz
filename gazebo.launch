@@ -1,0 +1,9 @@
+<launch>
+  <!-- World -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="paused" value="true" />
+  </include>
+  <!-- Robot -->
+  <param name="robot_model" textfile="$(find .gazebo)/models/nrp_mouse_v4_gz/model.sdf" />
+  <node name="spawn_robot1" pkg="gazebo" type="spawn_model" args="-gazebo -param robot_model -model Nermo" respawn="false" output="screen" />
+</launch>
