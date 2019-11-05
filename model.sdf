@@ -344,7 +344,7 @@
         <pose frame=''>0 0.1388 -0.00953 0.482969 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Body2_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Body2_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -416,7 +416,7 @@
         <pose frame=''>0 0.111644 -1e-06 0.444419 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Body3_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Body3_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -488,7 +488,7 @@
         <pose frame=''>0 0.101016 0.013139 0.367174 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Body4_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Body4_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -560,7 +560,7 @@
         <pose frame=''>0 0.121352 0.003556 0.317459 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Body5_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Body5_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -632,7 +632,7 @@
         <pose frame=''>0 0.103307 0.015234 0.255809 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Body6_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Body6_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -704,7 +704,7 @@
         <pose frame=''>0 0.117337 0.003668 0.211093 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Body7_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Body7_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -776,7 +776,7 @@
         <pose frame=''>0 0.109121 0.012558 0.141897 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Body8_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Body8_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -848,7 +848,7 @@
         <pose frame=''>0 0.56474 -0.043295 2.96747 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Head_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Head_collision.dae</uri>
             <scale>0.03 0.03 0.03</scale>
           </mesh>
         </geometry>
@@ -920,7 +920,7 @@
         <pose frame=''>0 0.325844 0.038418 2.98204 2e-06 -0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LH_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LH_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -992,7 +992,7 @@
         <pose frame=''>0 0.332664 -0.004846 2.56605 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LH1_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LH1_collision.dae</uri>
             <scale>0.03 0.03 0.03</scale>
           </mesh>
         </geometry>
@@ -1064,7 +1064,7 @@
         <pose frame=''>0 0.092541 -0.013747 3.06795 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LH10_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LH10_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -1136,7 +1136,7 @@
         <pose frame=''>0 0.053314 0.003461 2.02146 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LH2_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LH2_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -1208,7 +1208,7 @@
         <pose frame=''>0 0.049751 0.005366 1.21203 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LH3_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LH3_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -1280,7 +1280,7 @@
         <pose frame=''>0 0.076757 0.038664 0.147079 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LH4_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LH4_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -1352,7 +1352,7 @@
         <pose frame=''>0 0.085115 -0.006946 -0.455452 0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LH5_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LH5_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -1424,7 +1424,7 @@
         <pose frame=''>0 0.088707 -0.011559 0.440752 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LH6_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LH6_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -1496,7 +1496,7 @@
         <pose frame=''>0 0.13869 0.066318 1.18727 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LH7_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LH7_collision.dae</uri>
             <scale>0.03 0.03 0.03</scale>
           </mesh>
         </geometry>
@@ -1568,7 +1568,7 @@
         <pose frame=''>0 0.08999 -0.011229 1.35392 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LH8_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LH8_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -1641,7 +1641,7 @@
         <pose frame=''>0 0.09114 -0.011582 2.20443 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LH9_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LH9_collision.dae</uri>
             <scale>0.03 0.03 0.03</scale>
           </mesh>
         </geometry>
@@ -1713,7 +1713,7 @@
         <pose frame=''>0 0.302391 -0.024076 1.47354 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LV_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LV_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -1785,7 +1785,7 @@
         <pose frame=''>0 0.329208 -0.022006 2.55955 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LV1_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LV1_collision.dae</uri>
             <scale>0.03 0.03 0.03</scale>
           </mesh>
         </geometry>
@@ -1857,7 +1857,7 @@
         <pose frame=''>0 0.069842 0.006845 2.79282 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LV2_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LV2_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -1929,7 +1929,7 @@
         <pose frame=''>0 0.079842 0.011353 1.98321 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LV3_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LV3_collision.dae</uri>
             <scale>0.03 0.03 0.03</scale>
           </mesh>
         </geometry>
@@ -2001,7 +2001,7 @@
         <pose frame=''>0 0.068166 0.008564 1.21458 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_LV4_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_LV4_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -2106,7 +2106,7 @@
         <pose frame=''>0 0.325849 0.038419 2.98204 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RH_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RH_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -2178,7 +2178,7 @@
         <pose frame=''>0 0.332661 -0.004845 2.56605 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RH1_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RH1_collision.dae</uri>
             <scale>0.03 0.03 0.03</scale>
           </mesh>
         </geometry>
@@ -2250,7 +2250,7 @@
         <pose frame=''>0 0.092542 -0.013747 3.06795 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RH10_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RH10_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -2322,7 +2322,7 @@
         <pose frame=''>0 0.053311 0.003465 2.02146 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RH2_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RH2_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -2394,7 +2394,7 @@
         <pose frame=''>0 0.049751 0.005368 1.21203 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RH3_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RH3_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -2466,7 +2466,7 @@
         <pose frame=''>0 0.076759 0.038665 0.147079 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RH4_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RH4_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -2538,7 +2538,7 @@
         <pose frame=''>0 0.085116 -0.006947 -0.455452 0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RH5_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RH5_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -2610,7 +2610,7 @@
         <pose frame=''>0 0.088706 -0.011558 0.440752 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RH6_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RH6_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -2682,7 +2682,7 @@
         <pose frame=''>0 0.138691 0.066319 1.18727 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RH7_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RH7_collision.dae</uri>
             <scale>0.03 0.03 0.03</scale>
           </mesh>
         </geometry>
@@ -2754,7 +2754,7 @@
         <pose frame=''>0 0.089988 -0.011231 1.35392 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RH8_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RH8_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -2826,7 +2826,7 @@
         <pose frame=''>0 0.091134 -0.011581 2.20443 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RH9_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RH9_collision.dae</uri>
             <scale>0.03 0.03 0.03</scale>
           </mesh>
         </geometry>
@@ -2898,7 +2898,7 @@
         <pose frame=''>0 0.30236 -0.024375 1.47354 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RV_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RV_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -2970,7 +2970,7 @@
         <pose frame=''>0 0.329212 -0.022004 2.55955 1e-06 -0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RV1_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RV1_collision.dae</uri>
             <scale>0.03 0.03 0.03</scale>
           </mesh>
         </geometry>
@@ -3042,7 +3042,7 @@
         <pose frame=''>0 0.069843 0.006844 2.79282 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RV2_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RV2_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -3114,7 +3114,7 @@
         <pose frame=''>0 0.079844 0.011354 1.98321 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RV3_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RV3_collision.dae</uri>
             <scale>0.03 0.03 0.03</scale>
           </mesh>
         </geometry>
@@ -3186,7 +3186,7 @@
         <pose frame=''>0 0.068165 0.008565 1.21458 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_RV4_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_RV4_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -3406,7 +3406,7 @@
         <pose frame=''>0 0.104916 0.01823 0.172033 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail11_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail11_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -3478,7 +3478,7 @@
         <pose frame=''>0 0.102884 0.022377 0.214165 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail12_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail12_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -3550,7 +3550,7 @@
         <pose frame=''>0 0.10288 0.015818 0.152556 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail13_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail13_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -3622,7 +3622,7 @@
         <pose frame=''>0 0.100243 0.023182 0.227256 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail14_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail14_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -3694,7 +3694,7 @@
         <pose frame=''>0 0.099348 0.020242 0.200999 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail15_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail15_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -3766,7 +3766,7 @@
         <pose frame=''>0 0.098064 0.019 0.191379 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail16_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail16_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -3838,7 +3838,7 @@
         <pose frame=''>0 0.096433 0.019529 0.199799 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail17_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail17_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -3910,7 +3910,7 @@
         <pose frame=''>0 0.094107 0.021763 0.227255 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail18_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail18_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -3982,7 +3982,7 @@
         <pose frame=''>0 0.09131 0.025453 0.27185 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail19_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail19_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -4054,7 +4054,7 @@
         <pose frame=''>0 0.111696 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail2_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail2_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -4126,7 +4126,7 @@
         <pose frame=''>0 0.087624 0.030231 0.332214 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail20_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail20_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -4198,7 +4198,7 @@
         <pose frame=''>0 0.086307 0.026538 0.298323 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail21_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail21_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -4385,7 +4385,7 @@
         <pose frame=''>0 0.111379 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail3_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail3_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -4457,7 +4457,7 @@
         <pose frame=''>0 0.110386 -1e-06 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail4_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail4_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -4529,7 +4529,7 @@
         <pose frame=''>0 0.109787 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail5_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail5_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -4601,7 +4601,7 @@
         <pose frame=''>0 0.109593 0.010412 0.094715 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail6_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail6_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -4673,7 +4673,7 @@
         <pose frame=''>0 0.109344 0.005604 0.051205 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail7_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail7_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -4745,7 +4745,7 @@
         <pose frame=''>0 0.107979 0.016196 0.14889 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail8_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail8_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -4817,7 +4817,7 @@
         <pose frame=''>0 0.107242 0.015015 0.139096 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/peerl/Documents/Maus_III/meshes/collisions/COL_link_Tail9_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Tail9_collision.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -4861,7 +4861,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Body1' type='revolute'>
+    <joint name='link_Body1' type='fixed'>
       <parent>link_Body2</parent>
       <child>link_Body1</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4885,7 +4885,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Body2' type='revolute'>
+    <joint name='link_Body2' type='fixed'>
       <parent>link_Body3</parent>
       <child>link_Body2</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4909,7 +4909,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Body3' type='revolute'>
+    <joint name='link_Body3' type='fixed'>
       <parent>link_Body4</parent>
       <child>link_Body3</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4933,7 +4933,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Body4' type='revolute'>
+    <joint name='link_Body4' type='fixed'>
       <parent>link_Body5</parent>
       <child>link_Body4</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4957,7 +4957,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Body5' type='revolute'>
+    <joint name='link_Body5' type='fixed'>
       <parent>link_Body6</parent>
       <child>link_Body5</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4981,7 +4981,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Body6' type='revolute'>
+    <joint name='link_Body6' type='fixed'>
       <parent>link_Body7</parent>
       <child>link_Body6</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5005,7 +5005,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Body7' type='revolute'>
+    <joint name='link_Body7' type='fixed'>
       <parent>link_Body8</parent>
       <child>link_Body7</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5029,7 +5029,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Body8' type='revolute'>
+    <joint name='link_Body8' type='fixed'>
       <parent>link_Body</parent>
       <child>link_Body8</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5053,7 +5053,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Head' type='fixed'>
+    <joint name='link_Head' type='revolute'>
       <parent>link_Neck</parent>
       <child>link_Head</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5068,7 +5068,7 @@
         </limit>
         <dynamics>
           <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
+          <spring_stiffness>0</spring_stiffness>
           <damping>0.0</damping>
           <friction>0</friction>
         </dynamics>
@@ -5197,7 +5197,7 @@
 
       </physics>
     </joint>
-    <joint name='link_LH5' type='fixed'>
+    <joint name='link_LH5' type='revolute'>
       <parent>link_LH6</parent>
       <child>link_LH5</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5293,7 +5293,7 @@
 
       </physics>
     </joint>
-    <joint name='link_LH9' type='fixed'>
+    <joint name='link_LH9' type='revolute'>
       <parent>link_LH10</parent>
       <child>link_LH9</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5317,7 +5317,7 @@
 
       </physics>
     </joint>
-    <joint name='link_LH' type='fixed'>
+    <joint name='link_LH' type='revolute'>
       <parent>link_Body1</parent>
       <child>link_LH</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5437,7 +5437,7 @@
 
       </physics>
     </joint>
-    <joint name='link_LV' type='fixed'>
+    <joint name='link_LV' type='revolute'>
       <parent>link_Body10</parent>
       <child>link_LV</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5461,7 +5461,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Neck' type='fixed'>
+    <joint name='link_Neck' type='revolute'>
       <parent>link_Body10</parent>
       <child>link_Neck</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5476,7 +5476,7 @@
         </limit>
         <dynamics>
           <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
+          <spring_stiffness>0</spring_stiffness>
           <damping>0.0</damping>
           <friction>0</friction>
         </dynamics>
@@ -5605,7 +5605,7 @@
 
       </physics>
     </joint>
-    <joint name='link_RH5' type='fixed'>
+    <joint name='link_RH5' type='revolute'>
       <parent>link_RH6</parent>
       <child>link_RH5</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5701,7 +5701,7 @@
 
       </physics>
     </joint>
-    <joint name='link_RH9' type='fixed'>
+    <joint name='link_RH9' type='revolute'>
       <parent>link_RH10</parent>
       <child>link_RH9</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5725,7 +5725,7 @@
 
       </physics>
     </joint>
-    <joint name='link_RH' type='fixed'>
+    <joint name='link_RH' type='revolute'>
       <parent>link_Body1</parent>
       <child>link_RH</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5845,7 +5845,7 @@
 
       </physics>
     </joint>
-    <joint name='link_RV' type='fixed'>
+    <joint name='link_RV' type='revolute'>
       <parent>link_Body10</parent>
       <child>link_RV</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6424,6 +6424,42 @@
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
+      <!-- controlers for foreleg tendons -->
+      <controller joint_name='link_LV3'>
+        <type>position</type>
+        <pid>50.0 100.0 5.0</pid>
+      </controller>
+      <controller joint_name='link_RV3'>
+        <type>position</type>
+        <pid>50.0 100.0 5.0</pid>
+      </controller>
+      <!-- controlers for mimik joints -->
+      <controller joint_name='link_LH9'>
+        <type>position</type>
+        <pid>50.0 100.0 5.0</pid>
+      </controller>
+      <controller joint_name='link_RH9'>
+        <type>position</type>
+        <pid>50.0 100.0 5.0</pid>
+      </controller>
+    </plugin>
+    <plugin name='left_hindleg_mimic_plugin' filename='libroboticsgroup_gazebo_mimic_joint_plugin.so'>
+      <joint>link_LH9</joint>
+      <mimicJoint>link_LH5</mimicJoint>
+      <hasPID/>
+      <multiplier>-0.5</multiplier>
+      <offset>0</offset>
+      <sensitiveness>0.0</sensitiveness>
+      <maxEffort>10.0</maxEffort>
+    </plugin>
+    <plugin name='left_hindleg_mimic_plugin' filename='libroboticsgroup_gazebo_mimic_joint_plugin.so'>
+      <joint>link_RH9</joint>
+      <mimicJoint>link_RH5</mimicJoint>
+      <hasPID/>
+      <multiplier>-0.5</multiplier>
+      <offset>0</offset>
+      <sensitiveness>0.0</sensitiveness>
+      <maxEffort>10.0</maxEffort>
     </plugin>
   </model>
 </sdf>
