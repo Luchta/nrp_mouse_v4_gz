@@ -4866,6 +4866,7 @@
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
+      </axis>
       <physics>
 
       </physics>
@@ -6283,8 +6284,8 @@
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-	  <--
     </plugin>
+    	<!--
     <plugin name='left_hindleg_mimic_plugin' filename='libroboticsgroup_gazebo_mimic_joint_plugin.so'>
       <joint>link_LH9</joint>
       <mimicJoint>link_LH5</mimicJoint>
@@ -6302,6 +6303,6 @@
       <offset>0</offset>
       <sensitiveness>0.0</sensitiveness>
       <maxEffort>10.0</maxEffort>
-    </plugin> !-->
+    </plugin> -->
   </model>
 </sdf>
