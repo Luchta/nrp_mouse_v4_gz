@@ -848,7 +848,7 @@
         <pose frame=''>0 0.56474 -0.043295 2.96747 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Head_collision.dae</uri>
+            <uri>model://nrp_mouse_v4_gz/meshes/collisions/COL_link_Head_collision_simp.dae</uri>
             <scale>0.03 0.03 0.03</scale>
           </mesh>
         </geometry>
@@ -4853,15 +4853,24 @@
         </surface>
       </collision>
     </link>
-    <joint name='link_Body10' type='fixed'>
+    <joint name='joint_Body10' type='revolute'>
       <parent>link_Body</parent>
       <child>link_Body10</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
+	  <axis>
+        <xyz>0 0 1</xyz>
+        <use_parent_model_frame>0</use_parent_model_frame>
+        <limit>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
+          <effort>0</effort>
+          <velocity>0</velocity>
+        </limit>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_Body1' type='fixed'>
+    <joint name='joint_Body1' type='revolute'>
       <parent>link_Body2</parent>
       <child>link_Body1</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4869,23 +4878,17 @@
         <xyz>0 0 1</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.383972</lower>
-          <upper>0.383972</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-            <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_Body2' type='fixed'>
+    <joint name='joint_Body2' type='revolute'>
       <parent>link_Body3</parent>
       <child>link_Body2</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4893,23 +4896,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.0872665</lower>
-          <upper>0.366519</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_Body3' type='fixed'>
+    <joint name='joint_Body3' type='revolute'>
       <parent>link_Body4</parent>
       <child>link_Body3</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4917,23 +4914,17 @@
         <xyz>0 0 1</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.383972</lower>
-          <upper>0.383972</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_Body4' type='fixed'>
+    <joint name='joint_Body4' type='revolute'>
       <parent>link_Body5</parent>
       <child>link_Body4</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4941,23 +4932,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.0872665</lower>
-          <upper>0.366519</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_Body5' type='fixed'>
+    <joint name='joint_Body5' type='revolute'>
       <parent>link_Body6</parent>
       <child>link_Body5</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4965,23 +4950,17 @@
         <xyz>0 0 1</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.383972</lower>
-          <upper>0.383972</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_Body6' type='fixed'>
+    <joint name='joint_Body6' type='revolute'>
       <parent>link_Body7</parent>
       <child>link_Body6</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4989,23 +4968,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.0872665</lower>
-          <upper>0.366519</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_Body7' type='fixed'>
+    <joint name='joint_Body7' type='revolute'>
       <parent>link_Body8</parent>
       <child>link_Body7</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5013,23 +4986,17 @@
         <xyz>0 0 1</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.383972</lower>
-          <upper>0.383972</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_Body8' type='fixed'>
+    <joint name='joint_Body8' type='revolute'>
       <parent>link_Body</parent>
       <child>link_Body8</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5037,23 +5004,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.0872665</lower>
-          <upper>0.488692</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_Head' type='revolute'>
+    <joint name='joint_Head' type='revolute'>
       <parent>link_Neck</parent>
       <child>link_Head</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5066,18 +5027,12 @@
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>0</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_LH10' type='fixed'>
+    <joint name='joint_LH10' type='revolute'>
       <parent>link_LH</parent>
       <child>link_LH10</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5085,23 +5040,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_LH1' type='fixed'>
+    <joint name='joint_LH1' type='revolute'>
       <parent>link_LH2</parent>
       <child>link_LH1</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5109,23 +5058,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_LH2' type='revolute'>
+    <joint name='joint_LH2' type='revolute'>
       <parent>link_LH3</parent>
       <child>link_LH2</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5149,7 +5092,7 @@
 
       </physics>
     </joint>
-    <joint name='link_LH3' type='fixed'>
+    <joint name='joint_LH3' type='revolute'>
       <parent>link_LH4</parent>
       <child>link_LH3</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5157,23 +5100,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_LH4' type='fixed'>
+    <joint name='joint_LH4' type='revolute'>
       <parent>link_LH5</parent>
       <child>link_LH4</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5181,23 +5118,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_LH5' type='revolute'>
+    <joint name='joint_LH5' type='revolute'>
       <parent>link_LH6</parent>
       <child>link_LH5</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5221,7 +5152,7 @@
 
       </physics>
     </joint>
-    <joint name='link_LH6' type='fixed'>
+    <joint name='joint_LH6' type='revolute'>
       <parent>link_LH7</parent>
       <child>link_LH6</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5229,23 +5160,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_LH7' type='fixed'>
+    <joint name='joint_LH7' type='revolute'>
       <parent>link_LH8</parent>
       <child>link_LH7</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5253,23 +5178,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_LH8' type='fixed'>
+    <joint name='joint_LH8' type='revolute'>
       <parent>link_LH9</parent>
       <child>link_LH8</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5277,23 +5196,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_LH9' type='revolute'>
+    <joint name='joint_LH9' type='revolute'>
       <parent>link_LH10</parent>
       <child>link_LH9</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5317,7 +5230,7 @@
 
       </physics>
     </joint>
-    <joint name='link_LH' type='revolute'>
+    <joint name='joint_LH' type='revolute'>
       <parent>link_Body1</parent>
       <child>link_LH</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5341,7 +5254,7 @@
 
       </physics>
     </joint>
-    <joint name='link_LV1' type='fixed'>
+    <joint name='joint_LV1' type='revolute'>
       <parent>link_LV2</parent>
       <child>link_LV1</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5349,23 +5262,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.314159</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_LV2' type='fixed'>
+    <joint name='joint_LV2' type='revolute'>
       <parent>link_LV3</parent>
       <child>link_LV2</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5373,23 +5280,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_LV3' type='revolute'>
+    <joint name='joint_LV3' type='revolute'>
       <parent>link_LV4</parent>
       <child>link_LV3</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5413,7 +5314,7 @@
 
       </physics>
     </joint>
-    <joint name='link_LV4' type='fixed'>
+    <joint name='joint_LV4' type='revolute'>
       <parent>link_LV</parent>
       <child>link_LV4</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5421,23 +5322,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_LV' type='revolute'>
+    <joint name='joint_LV' type='revolute'>
       <parent>link_Body10</parent>
       <child>link_LV</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5461,7 +5356,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Neck' type='revolute'>
+    <joint name='joint_Neck' type='revolute'>
       <parent>link_Body10</parent>
       <child>link_Neck</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5485,7 +5380,7 @@
 
       </physics>
     </joint>
-    <joint name='link_RH10' type='fixed'>
+    <joint name='joint_RH10' type='revolute'>
       <parent>link_RH</parent>
       <child>link_RH10</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5493,23 +5388,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_RH1' type='fixed'>
+    <joint name='joint_RH1' type='revolute'>
       <parent>link_RH2</parent>
       <child>link_RH1</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5517,23 +5406,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_RH2' type='revolute'>
+    <joint name='joint_RH2' type='revolute'>
       <parent>link_RH3</parent>
       <child>link_RH2</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5557,7 +5440,7 @@
 
       </physics>
     </joint>
-    <joint name='link_RH3' type='fixed'>
+    <joint name='joint_RH3' type='revolute'>
       <parent>link_RH4</parent>
       <child>link_RH3</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5565,23 +5448,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_RH4' type='fixed'>
+    <joint name='joint_RH4' type='revolute'>
       <parent>link_RH5</parent>
       <child>link_RH4</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5589,23 +5466,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_RH5' type='revolute'>
+    <joint name='joint_RH5' type='revolute'>
       <parent>link_RH6</parent>
       <child>link_RH5</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5629,7 +5500,7 @@
 
       </physics>
     </joint>
-    <joint name='link_RH6' type='fixed'>
+    <joint name='joint_RH6' type='revolute'>
       <parent>link_RH7</parent>
       <child>link_RH6</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5637,23 +5508,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_RH7' type='fixed'>
+    <joint name='joint_RH7' type='revolute'>
       <parent>link_RH8</parent>
       <child>link_RH7</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5661,23 +5526,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_RH8' type='fixed'>
+    <joint name='joint_RH8' type='revolute'>
       <parent>link_RH9</parent>
       <child>link_RH8</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5685,23 +5544,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_RH9' type='revolute'>
+    <joint name='joint_RH9' type='revolute'>
       <parent>link_RH10</parent>
       <child>link_RH9</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5725,7 +5578,7 @@
 
       </physics>
     </joint>
-    <joint name='link_RH' type='revolute'>
+    <joint name='joint_RH' type='revolute'>
       <parent>link_Body1</parent>
       <child>link_RH</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5749,7 +5602,7 @@
 
       </physics>
     </joint>
-    <joint name='link_RV1' type='fixed'>
+    <joint name='joint_RV1' type='revolute'>
       <parent>link_RV2</parent>
       <child>link_RV1</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5757,23 +5610,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.314159</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_RV2' type='fixed'>
+    <joint name='joint_RV2' type='revolute'>
       <parent>link_RV3</parent>
       <child>link_RV2</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5781,8 +5628,8 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
@@ -5797,7 +5644,7 @@
 
       </physics>
     </joint>
-    <joint name='link_RV3' type='revolute'>
+    <joint name='joint_RV3' type='revolute'>
       <parent>link_RV4</parent>
       <child>link_RV3</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5821,7 +5668,7 @@
 
       </physics>
     </joint>
-    <joint name='link_RV4' type='fixed'>
+    <joint name='joint_RV4' type='revolute'>
       <parent>link_RV</parent>
       <child>link_RV4</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5829,23 +5676,17 @@
         <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
-          <lower>-0.261799</lower>
-          <upper>0.261799</upper>
+          <lower>-0.0</lower>
+          <upper>0.0</upper>
           <effort>0</effort>
           <velocity>0</velocity>
         </limit>
-        <dynamics>
-          <spring_reference>0</spring_reference>
-          <spring_stiffness>22</spring_stiffness>
-          <damping>0.0</damping>
-          <friction>0</friction>
-        </dynamics>
       </axis>
       <physics>
 
       </physics>
     </joint>
-    <joint name='link_RV' type='revolute'>
+    <joint name='joint_RV' type='revolute'>
       <parent>link_Body10</parent>
       <child>link_RV</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5869,7 +5710,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail10' type='revolute'>
+    <joint name='joint_Tail10' type='revolute'>
       <parent>link_Tail11</parent>
       <child>link_Tail10</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5893,7 +5734,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail11' type='revolute'>
+    <joint name='joint_Tail11' type='revolute'>
       <parent>link_Tail12</parent>
       <child>link_Tail11</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5917,7 +5758,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail12' type='revolute'>
+    <joint name='joint_Tail12' type='revolute'>
       <parent>link_Tail13</parent>
       <child>link_Tail12</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5941,7 +5782,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail13' type='revolute'>
+    <joint name='joint_Tail13' type='revolute'>
       <parent>link_Tail14</parent>
       <child>link_Tail13</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5965,7 +5806,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail14' type='revolute'>
+    <joint name='joint_Tail14' type='revolute'>
       <parent>link_Tail15</parent>
       <child>link_Tail14</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5989,7 +5830,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail15' type='revolute'>
+    <joint name='joint_Tail15' type='revolute'>
       <parent>link_Tail16</parent>
       <child>link_Tail15</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6013,7 +5854,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail16' type='revolute'>
+    <joint name='joint_Tail16' type='revolute'>
       <parent>link_Tail17</parent>
       <child>link_Tail16</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6037,7 +5878,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail17' type='revolute'>
+    <joint name='joint_Tail17' type='revolute'>
       <parent>link_Tail18</parent>
       <child>link_Tail17</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6061,7 +5902,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail18' type='revolute'>
+    <joint name='joint_Tail18' type='revolute'>
       <parent>link_Tail19</parent>
       <child>link_Tail18</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6085,7 +5926,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail19' type='revolute'>
+    <joint name='joint_Tail19' type='revolute'>
       <parent>link_Tail20</parent>
       <child>link_Tail19</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6109,7 +5950,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail1' type='revolute'>
+    <joint name='joint_Tail1' type='revolute'>
       <parent>link_Tail2</parent>
       <child>link_Tail1</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6133,7 +5974,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail20' type='revolute'>
+    <joint name='joint_Tail20' type='revolute'>
       <parent>link_Tail21</parent>
       <child>link_Tail20</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6157,7 +5998,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail21' type='revolute'>
+    <joint name='joint_Tail21' type='revolute'>
       <parent>link_Tail22</parent>
       <child>link_Tail21</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6181,7 +6022,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail22' type='revolute'>
+    <joint name='joint_Tail22' type='revolute'>
       <parent>link_Body1</parent>
       <child>link_Tail22</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6205,7 +6046,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail2' type='revolute'>
+    <joint name='joint_Tail2' type='revolute'>
       <parent>link_Tail3</parent>
       <child>link_Tail2</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6229,7 +6070,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail3' type='revolute'>
+    <joint name='joint_Tail3' type='revolute'>
       <parent>link_Tail4</parent>
       <child>link_Tail3</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6253,7 +6094,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail4' type='revolute'>
+    <joint name='joint_Tail4' type='revolute'>
       <parent>link_Tail5</parent>
       <child>link_Tail4</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6277,7 +6118,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail5' type='revolute'>
+    <joint name='joint_Tail5' type='revolute'>
       <parent>link_Tail6</parent>
       <child>link_Tail5</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6301,7 +6142,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail6' type='revolute'>
+    <joint name='joint_Tail6' type='revolute'>
       <parent>link_Tail7</parent>
       <child>link_Tail6</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6325,7 +6166,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail7' type='revolute'>
+    <joint name='joint_Tail7' type='revolute'>
       <parent>link_Tail8</parent>
       <child>link_Tail7</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6349,7 +6190,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail8' type='revolute'>
+    <joint name='joint_Tail8' type='revolute'>
       <parent>link_Tail9</parent>
       <child>link_Tail8</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6373,7 +6214,7 @@
 
       </physics>
     </joint>
-    <joint name='link_Tail9' type='revolute'>
+    <joint name='joint_Tail9' type='revolute'>
       <parent>link_Tail10</parent>
       <child>link_Tail9</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6400,48 +6241,49 @@
     <static>0</static>
     <allow_auto_disable>1</allow_auto_disable>
     <plugin name='generic_controller' filename='libgeneric_controller_plugin.so'>
-      <controller joint_name='link_RV'>
+      <controller joint_name='joint_RV'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='link_LV'>
+      <controller joint_name='joint_LV'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='link_RH'>
+      <controller joint_name='joint_RH'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='link_LH'>
+      <controller joint_name='joint_LH'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='link_Head'>
+      <controller joint_name='joint_Head'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='link_Neck'>
+      <controller joint_name='joint_Neck'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
       <!-- controlers for foreleg tendons -->
-      <controller joint_name='link_LV3'>
+      <controller joint_name='joint_LV3'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='link_RV3'>
+      <controller joint_name='joint_RV3'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
       <!-- controlers for mimik joints -->
-      <controller joint_name='link_LH9'>
+      <controller joint_name='joint_LH9'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='link_RH9'>
+      <controller joint_name='joint_RH9'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
+	  <--
     </plugin>
     <plugin name='left_hindleg_mimic_plugin' filename='libroboticsgroup_gazebo_mimic_joint_plugin.so'>
       <joint>link_LH9</joint>
@@ -6460,6 +6302,6 @@
       <offset>0</offset>
       <sensitiveness>0.0</sensitiveness>
       <maxEffort>10.0</maxEffort>
-    </plugin>
+    </plugin> !-->
   </model>
 </sdf>
