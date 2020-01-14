@@ -1794,7 +1794,7 @@
 				</limit>
 			</axis>
 		</joint>
-		<joint name="joint_LV" type="revolute">
+		<joint name="joint_LeftShoulder" type="revolute">
 			<parent>link_Body10</parent>
 			<child>link_LV</child>
 			<axis>
@@ -1805,6 +1805,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>0.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_LV4" type="revolute">
@@ -1820,7 +1826,7 @@
 				</limit>
 			</axis>
 		</joint>
-		<joint name="joint_LV3" type="revolute">
+		<joint name="joint_LeftElbow" type="revolute">
 			<parent>link_LV4</parent>
 			<child>link_LV3</child>
 			<axis>
@@ -1831,6 +1837,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>0.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_LV2" type="revolute">
@@ -1859,7 +1871,7 @@
 				</limit>
 			</axis>
 		</joint>
-		<joint name="joint_Neck" type="revolute">
+		<joint name="joint_Neck_Horizontal" type="revolute">
 			<parent>link_Body10</parent>
 			<child>link_Neck</child>
 			<axis>
@@ -1870,9 +1882,15 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>0.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
-		<joint name="joint_Head" type="revolute">
+		<joint name="joint_Neck_Vertical" type="revolute">
 			<parent>link_Neck</parent>
 			<child>link_Head</child>
 			<axis>
@@ -1883,9 +1901,15 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>0.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
-		<joint name="joint_RV" type="revolute">
+		<joint name="joint_RightShoulder" type="revolute">
 			<parent>link_Body10</parent>
 			<child>link_RV</child>
 			<axis>
@@ -1896,6 +1920,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>0.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_RV4" type="revolute">
@@ -1911,7 +1941,7 @@
 				</limit>
 			</axis>
 		</joint>
-		<joint name="joint_RV3" type="revolute">
+		<joint name="joint_RightElbow" type="revolute">
 			<parent>link_RV4</parent>
 			<child>link_RV3</child>
 			<axis>
@@ -1922,6 +1952,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>0.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_RV2" type="revolute">
@@ -2054,7 +2090,7 @@
 				</limit>
 			</axis>
 		</joint>
-		<joint name="joint_LH" type="revolute">
+		<joint name="joint_LeftHip" type="revolute">
 			<parent>link_Body1</parent>
 			<child>link_LH</child>
 			<axis>
@@ -2065,6 +2101,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>0.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_LH10" type="revolute">
@@ -2080,7 +2122,7 @@
 				</limit>
 			</axis>
 		</joint>
-		<joint name="joint_LH9" type="revolute">
+		<joint name="joint_LeftKnee" type="revolute">
 			<parent>link_LH10</parent>
 			<child>link_LH9</child>
 			<axis>
@@ -2091,6 +2133,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>0.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_LH8" type="revolute">
@@ -2132,7 +2180,7 @@
 				</limit>
 			</axis>
 		</joint>
-		<joint name="joint_LH5" type="revolute">
+		<joint name="joint_LeftAnkle" type="revolute">
 			<parent>link_LH6</parent>
 			<child>link_LH5</child>
 			<axis>
@@ -2143,6 +2191,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>0.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_LH4" type="revolute">
@@ -2171,7 +2225,7 @@
 				</limit>
 			</axis>
 		</joint>
-		<joint name="joint_LH2" type="revolute">
+		<joint name="joint_LeftFoot" type="revolute">
 			<parent>link_LH3</parent>
 			<child>link_LH2</child>
 			<axis>
@@ -2182,6 +2236,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>0.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_LH1" type="revolute">
@@ -2197,7 +2257,7 @@
 				</limit>
 			</axis>
 		</joint>
-		<joint name="joint_RH" type="revolute">
+		<joint name="joint_RightHip" type="revolute">
 			<parent>link_Body1</parent>
 			<child>link_RH</child>
 			<axis>
@@ -2208,6 +2268,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_RH10" type="revolute">
@@ -2223,7 +2289,7 @@
 				</limit>
 			</axis>
 		</joint>
-		<joint name="joint_RH9" type="revolute">
+		<joint name="joint_RightKnee" type="revolute">
 			<parent>link_RH10</parent>
 			<child>link_RH9</child>
 			<axis>
@@ -2234,6 +2300,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_RH8" type="revolute">
@@ -2275,7 +2347,7 @@
 				</limit>
 			</axis>
 		</joint>
-		<joint name="joint_RH5" type="revolute">
+		<joint name="joint_RightAnkle" type="revolute">
 			<parent>link_RH6</parent>
 			<child>link_RH5</child>
 			<axis>
@@ -2286,6 +2358,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_RH4" type="revolute">
@@ -2314,7 +2392,7 @@
 				</limit>
 			</axis>
 		</joint>
-		<joint name="joint_RH2" type="revolute">
+		<joint name="joint_RightFoot" type="revolute">
 			<parent>link_RH3</parent>
 			<child>link_RH2</child>
 			<axis>
@@ -2325,6 +2403,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_RH1" type="revolute">
@@ -2351,6 +2435,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail21" type="revolute">
@@ -2364,6 +2454,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail20" type="revolute">
@@ -2377,6 +2473,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail19" type="revolute">
@@ -2390,6 +2492,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail18" type="revolute">
@@ -2403,6 +2511,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail17" type="revolute">
@@ -2416,6 +2530,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail16" type="revolute">
@@ -2429,6 +2549,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail15" type="revolute">
@@ -2442,6 +2568,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail14" type="revolute">
@@ -2455,6 +2587,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail13" type="revolute">
@@ -2468,6 +2606,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail12" type="revolute">
@@ -2481,6 +2625,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail11" type="revolute">
@@ -2494,6 +2644,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail10" type="revolute">
@@ -2507,6 +2663,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail9" type="revolute">
@@ -2520,6 +2682,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail8" type="revolute">
@@ -2533,6 +2701,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail7" type="revolute">
@@ -2546,6 +2720,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail6" type="revolute">
@@ -2559,6 +2739,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail5" type="revolute">
@@ -2572,6 +2758,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail4" type="revolute">
@@ -2585,6 +2777,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail3" type="revolute">
@@ -2598,6 +2796,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail2" type="revolute">
@@ -2611,6 +2815,12 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		<joint name="joint_Tail1" type="revolute">
@@ -2624,65 +2834,69 @@
 					<effort>1000.0</effort>
 					<velocity>10000.0</velocity>
 				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>22</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
 			</axis>
 		</joint>
 		    <plugin name='generic_controller' filename='libgeneric_controller_plugin.so'>
-      <controller joint_name='joint_RV'>
+      <controller joint_name='joint_RightShoulder'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='joint_LV'>
+      <controller joint_name='joint_LeftShoulder'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='joint_RH'>
+      <controller joint_name='joint_RightHip'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='joint_LH'>
+      <controller joint_name='joint_LeftHip'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='joint_Head'>
+      <controller joint_name='joint_Neck_Vertical'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='joint_Neck'>
+      <controller joint_name='joint_Neck_Horizontal'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
       <!-- controlers for foreleg tendons -->
-      <controller joint_name='joint_LV3'>
+      <controller joint_name='joint_LeftElbow'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='joint_RV3'>
+      <controller joint_name='joint_RightElbow'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
       <!-- controlers for mimik joints -->
-      <controller joint_name='joint_LH9'>
+      <controller joint_name='joint_LeftKnee'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
-      <controller joint_name='joint_RH9'>
+      <controller joint_name='joint_RightKnee'>
         <type>position</type>
         <pid>50.0 100.0 5.0</pid>
       </controller>
     </plugin>
 	<plugin name='left_hindleg_mimic_plugin' filename='libroboticsgroup_gazebo_mimic_joint_plugin.so'>
-      <joint>joint_LH9</joint>
-      <mimicJoint>joint_LH5</mimicJoint>
-      <hasPID/>
+      <joint>joint_LeftKnee</joint>
+      <mimicJoint>joint_LeftAnkle</mimicJoint>
       <multiplier>-0.5</multiplier>
       <offset>0</offset>
       <sensitiveness>0.0</sensitiveness>
       <maxEffort>1000.0</maxEffort>
     </plugin>
     <plugin name='left_hindleg_mimic_plugin' filename='libroboticsgroup_gazebo_mimic_joint_plugin.so'>
-      <joint>joint_RH9</joint>
-      <mimicJoint>joint_RH5</mimicJoint>
-      <hasPID/>
+      <joint>joint_RightKnee</joint>
+      <mimicJoint>joint_RightAnkle</mimicJoint>
       <multiplier>-0.5</multiplier>
       <offset>0</offset>
       <sensitiveness>0.0</sensitiveness>
