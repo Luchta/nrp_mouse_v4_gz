@@ -1386,7 +1386,7 @@
 				</geometry>
 			</visual>
 		</link>
-		<!--   
+                <!--   
 		<joint name="joint_World" type="revolute">
 			<parent>world</parent>
 			<child>link_Body</child>
@@ -1395,21 +1395,21 @@
 				<limit>
 					<lower>-0.0</lower>
 					<upper>0.0</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 			</axis>
 		</joint>
-	   -->
+			-->
 		<joint name="joint_Body10" type="revolute">
 			<parent>link_Body</parent>
 			<child>link_Body10</child>
 			<axis>
 				<xyz>0.0 0.0 1.0</xyz>
 				<limit>
-					<lower>-0.1</lower>
-					<upper>0.1</upper>
-					<effort>10.0</effort>
+					<lower>-0.2</lower>
+					<upper>0.2</upper>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 			</axis>
@@ -1420,9 +1420,9 @@
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
-					<lower>-1.047200014620606</lower>
-					<upper>2.094400029241212</upper>
-					<effort>10.0</effort>
+					<lower>-0.9</lower>
+					<upper>1.7</upper>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<!--
@@ -1441,9 +1441,9 @@
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
-					<lower>-0.4</lower>
-					<upper>0.26179900496974273</upper>
-					<effort>10.0</effort>
+					<lower>-0.5</lower>
+					<upper>0.2</upper>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<!--
@@ -1464,7 +1464,7 @@
 				<limit>
 					<lower>-0.7853980302393938</lower>
 					<upper>0.7853980302393938</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<!--
@@ -1485,7 +1485,7 @@
 				<limit>
 					<lower>-0.7853980302393938</lower>
 					<upper>0.959931022017854</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<!--
@@ -1504,9 +1504,9 @@
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
-					<lower>-1.047200014620606</lower>
-					<upper>2.094400029241212</upper>
-					<effort>10.0</effort>
+					<lower>-0.9</lower>
+					<upper>1.7</upper>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<!--
@@ -1525,9 +1525,9 @@
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
-					<lower>-0.26179900496974273</lower>
-					<upper>0.26179900496974273</upper>
-					<effort>10.0</effort>
+					<lower>-0.5</lower>
+					<upper>0.2</upper>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<!--
@@ -1548,7 +1548,7 @@
 				<limit>
 					<lower>-0.1</lower>
 					<upper>0.1</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1567,7 +1567,7 @@
 				<limit>
 					<lower>-0.0</lower>
 					<upper>0.0</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1586,7 +1586,7 @@
 				<limit>
 					<lower>-0.0</lower>
 					<upper>0.0</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1605,7 +1605,7 @@
 				<limit>
 					<lower>-0.0</lower>
 					<upper>0.0</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1624,7 +1624,7 @@
 				<limit>
 					<lower>-0.0</lower>
 					<upper>0.0</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1643,7 +1643,7 @@
 				<limit>
 					<lower>-0.0</lower>
 					<upper>0.0</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1662,7 +1662,7 @@
 				<limit>
 					<lower>-0.0</lower>
 					<upper>0.0</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1679,9 +1679,9 @@
 			<axis>
 				<xyz>0.0 0.0 1.0</xyz>
 				<limit>
-					<lower>-0.0</lower>
-					<upper>0.0</upper>
-					<effort>10.0</effort>
+					<lower>-0.2</lower>
+					<upper>0.2</upper>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1698,9 +1698,9 @@
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
-					<lower>-0.8726650254713283</lower>
-					<upper>1.5708000552204227</upper>
-					<effort>10.0</effort>
+					<lower>-0.5</lower>
+					<upper>1.6</upper>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<!--
@@ -1719,9 +1719,9 @@
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
-					<lower>-0.26179900496974273</lower>
-					<upper>1.5</upper>
-					<effort>10.0</effort>
+					<lower>-0.0</lower>
+					<upper>0.7</upper>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1739,8 +1739,8 @@
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
 					<lower>-1.5</lower>
-					<upper>0.26179900496974273</upper>
-					<effort>10.0</effort>
+					<upper>0.26</upper>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1759,7 +1759,7 @@
 				<limit>
 					<lower>-0.0</lower>
 					<upper>0.0</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 			</axis>
@@ -1785,9 +1785,9 @@
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
-					<lower>-0.8726650254713283</lower>
-					<upper>1.5708000552204227</upper>
-					<effort>10.0</effort>
+					<lower>-0.5</lower>
+					<upper>1.6</upper>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<!--
@@ -1821,9 +1821,9 @@
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
-					<lower>-0.26179900496974273</lower>
-					<upper>0.26179900496974273</upper>
-					<effort>10.0</effort>
+					<lower>-0.0</lower>
+					<upper>0.7</upper>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1840,9 +1840,9 @@
 			<axis>
 				<xyz>1.0 0.0 0.0</xyz>
 				<limit>
-					<lower>-0.26179900496974273</lower>
-					<upper>0.26179900496974273</upper>
-					<effort>10.0</effort>
+					<lower>-1.5</lower>
+					<upper>0.26</upper>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1861,7 +1861,7 @@
 				<limit>
 					<lower>-0.0</lower>
 					<upper>0.0</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 			</axis>
@@ -1874,7 +1874,7 @@
 				<limit>
 					<lower>-0.06981320336928681</lower>
 					<upper>1.4835299973532345</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 			</axis>
@@ -1906,7 +1906,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1925,7 +1925,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1944,7 +1944,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1963,7 +1963,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -1982,7 +1982,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2001,7 +2001,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2020,7 +2020,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2039,7 +2039,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2058,7 +2058,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2077,7 +2077,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2096,7 +2096,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2115,7 +2115,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2134,7 +2134,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2153,7 +2153,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2172,7 +2172,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2191,7 +2191,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2210,7 +2210,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2229,7 +2229,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2248,7 +2248,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2267,7 +2267,7 @@
 				<limit>
 					<lower>-0.25</lower>
 					<upper>0.25</upper>
-					<effort>10.0</effort>
+					<effort>100.0</effort>
 					<velocity>0.5</velocity>
 				</limit>
 				<dynamics>
@@ -2281,56 +2281,58 @@
 		 <plugin name='generic_controller' filename='libgeneric_controller_plugin.so'>
       <controller joint_name='joint_R_Shoulder'>
         <type>position</type>
-        <pid>0.1 0.02 0.001</pid>
+		<pid>10.0 1.0 2.0</pid>
       </controller>
       <controller joint_name='joint_L_Shoulder'>
         <type>position</type>
-        <pid>0.1 0.02 0.001</pid>
+		<pid>10.0 1.0 2.0</pid>
       </controller>
       <controller joint_name='joint_R_Hip'>
         <type>position</type>
-        <pid>0.1 0.02 0.001</pid>
+		<pid>10.0 1.0 2.0</pid>
       </controller>
       <controller joint_name='joint_L_Hip'>
         <type>position</type>
-        <pid>0.1 0.02 0.001</pid>
+		<pid>10.0 1.0 2.0</pid>
       </controller>
 
       
       <controller joint_name='joint_L_Elbow'>
         <type>position</type>
         <!--<pid>0.08 0.001 0.0005</pid>-->
-        <pid>0.008 0.00 0.000</pid>
+		<!--<pid>0.1 0.010 0.02</pid>-->
+		<pid>0.8 0.10 0.2</pid>
+
       </controller>
       <controller joint_name='joint_R_Elbow'>
         <type>position</type>
-        <pid>0.008 0.00 0.000</pid>
+		<pid>0.8 0.10 0.2</pid>
       </controller>
       <controller joint_name='joint_L_Knee'>
         <type>position</type>
-        <pid>0.01 0.00 0.00</pid>
+		<pid>1.0 0.10 0.2</pid>
       </controller>
       <controller joint_name='joint_R_Knee'>
         <type>position</type>
-        <pid>0.01 0.00 0.00</pid>
+		<pid>1.0 0.10 0.2</pid>
       </controller>
 
       <controller joint_name='joint_NeckV'>
         <type>position</type>
-        <pid>0.4 0.01 0.02</pid>
+		<pid>10.0 1.0 2.0</pid>
       </controller>
       <controller joint_name='joint_NeckH'>
         <type>position</type>
-        <pid>0.2 0.01 0.02</pid>
+		<pid>10.0 1.0 2.0</pid>
       </controller>
 
       <controller joint_name='joint_Body1'>
         <type>position</type>
-        <pid>0.2 0.01 0.02</pid>
+		<pid>10.0 1.0 2.0</pid>
       </controller>
       <controller joint_name='joint_Body10'>
         <type>position</type>
-        <pid>0.2 0.01 0.02</pid>
+		<pid>10.0 1.0 2.0</pid>
       </controller>
 
     </plugin>
